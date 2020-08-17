@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="417dp"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="342dp"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Search..."
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="63dp"
+            android:layout_height="57dp"
+            app:srcCompat="@android:drawable/ic_search_category_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="669dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="58dp"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="492dp"
+                    android:layout_weight="1"
+                    android:background="#5E399F"
+                    app:srcCompat="@drawable/momos"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#03BCF4"
+                    android:text="@string/img11" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/editTextTextPersonName4"
+                            android:layout_width="match_parent"
+                            android:layout_height="62dp"
+                            android:ems="10"
+                            android:hint="Title"
+                            android:text="@string/head1" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine"
+                            android:layout_width="match_parent"
+                            android:layout_height="260dp"
+                            android:background="@android:color/darker_gray"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:hint="Description"
+                            android:text="@string/ins1" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#2196F3"
+                            app:srcCompat="@android:drawable/ic_delete" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="67dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/button5"
+                                    android:layout_width="230dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="#FF9800"
+                                    android:text="@string/img22"
+                                    android:textColor="#FFFCFC" />
+
+                                <Button
+                                    android:id="@+id/button6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#E91E63"
+                                    android:text="@string/img33"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

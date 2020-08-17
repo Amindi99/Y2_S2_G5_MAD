@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HiddenMsg">
+
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="731dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="#B71C1C">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="73dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+                    <FrameLayout
+                        android:layout_width="361dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="CooKit"
+                            android:textColor="#FCFBFB"
+                            android:textSize="30sp"
+                            app:fontFamily="monospace" />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="127dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <SearchView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/titleHiddenContact"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F8F5F5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hi2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:srcCompat="@drawable/u1" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/hn1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="clip_horizontal|center|center_horizontal"
+                                android:text="@string/HiddenConName"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <TextView
+                                    android:id="@+id/hm1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/hidenTxt" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/hb1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/HiddenBTN"
+                            android:textColor="#FAFFFFFF" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F8F5F5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hi3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:srcCompat="@drawable/um3" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/hn2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="clip_horizontal|center|center_horizontal"
+                                android:text="@string/HiddenConName"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <TextView
+                                    android:id="@+id/ht2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/hidenTxt" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/hb2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/HiddenBTN"
+                            android:textColor="#FAFFFFFF" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F8F5F5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:srcCompat="@drawable/u2" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView191"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="clip_horizontal|center|center_horizontal"
+                                android:text="@string/HiddenConName"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/hidenTxt" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/HiddenBTN"
+                            android:textColor="#FAFFFFFF" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

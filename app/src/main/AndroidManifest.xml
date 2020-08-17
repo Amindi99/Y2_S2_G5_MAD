@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aboutusui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Aapp_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Settings"></activity>
+        <activity android:name=".Chat" />
+        <activity android:name=".Hidden_msg" />
+        <activity android:name=".Chat_Screen" />
+        <activity android:name=".Block_Contact" />
+        <activity android:name=".Menu_Drawer" />
+        <activity android:name=".Comment" />
+        <activity android:name=".Login" />
+        <activity android:name=".Recipe_Feed" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Terms_Conditions" />
+        <activity android:name=".Search_Recipe" />
+        <activity android:name=".Search_Friend" />
+        <activity android:name=".PostEdit_Delete" />
+        <activity android:name=".CooKiT" />
+        <activity android:name=".Add_Post" />
+        <activity android:name=".Edit_Profile" />
+        <activity android:name=".Cookit_Collection" />
+        <activity android:name=".User_profile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

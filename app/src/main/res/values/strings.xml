@@ -1,0 +1,225 @@
+<resources>
+    <!-- User Profile-->
+    <string name="Uapp_name">User_Profile</string>
+    <string name="Auser_name">Ashen De Silva</string>
+    <string name="Afriends">Friends</string>
+    <string name="Aedit">Edit Profile</string>
+    <string name="Arecipies">Recipies</string>
+    <string name="Abio">No one is born a great cook, one learns by doing</string>
+    <string name="Amore">Load More Recipies</string>
+    <string name="Aflavour">Pepproni and Cheese Pizza</string>
+    <string name="Adescription">Pizza is a savory dish of Italian origin consisting
+                                of a usually round, flattened base of leavenedwheat-based
+        dough topped with tomatoes, cheese, and often various other ingredients which is
+        then baked at a high temperature, traditionally in a wood-fired oven.</string>
+    <string name="Acookit">CooKit</string>
+
+    <!-- About Us-->
+    <string name="Aapp_name">AboutUsUI</string>
+    <string name="AboutUsTitle">About Us</string>
+    <string name="AboutUsDesc1">Just cook it, We take care of your daily recipe needs. So effortessly that you
+        get to cook variety of delicious like pro chef. We want to give you a secure and friendly cooking
+        latform that anyone can share and follow each other most of all, We Share the warmth of family
+        recipies reachable from anywhere"</string>
+    <string name="AboutUsDesc2">Founded in August 2020 and based in Sri Lanka.CooKiT application is
+        a trusted place that people can share their recipies with each others.</string>
+
+    <!-- Cookit collection-->
+    <string name="Bapp_name">Cookit_UI</string>
+    <string name="cookitTopic">C o o K i T</string>
+    <string name="topicMuffin">Muffin</string>
+    <string name="topicNasiguran">Nasiguran</string>
+    <string name="topicSpaghetti">Spaghetti</string>
+    <string name="spaDesc">Spaghetti is a long, thin, solid, cylindrical noodle pasta.
+                            It is a staple food of traditional Italian cuisine"</string>
+    <string name="mufDesc">A muffin is an individual-sized, baked product. It can refer to two
+        distinct items, a part-raised flatbread that is baked and then cooked on a griddle</string>
+    <string name="nasiDesc">Nasi goreng, literally meaning "fried rice" in both the Indonesian and
+        Malay languages, is an Indonesian rice dish with pieces of meat and vegetables added</string>
+    <string name="btnDelete1">DELETE</string> <string name="btnDelete2">DELETE</string>
+    <string name="btnDelete3">DELETE</string> <string name="btnAdd1">Add note</string>
+    <string name="btnAdd2">Add note</string> <string name="btnAdd3">Add note</string>
+
+    <!-- Edit profile-->
+    <string name="Auser_edit">Ashen De Silva</string>
+    <string name="Edit_topic">Edit Profile</string>
+    <string name="Auser_location">Location</string>
+    <string name="Auser_email">E- mail</string>
+    <string name="Auser_password">Password</string>
+    <string name="Cancle_Btn">Cancle</string>
+    <string name="Save_Btn">Save</string>
+    <string name="Edit_pic">Edit Profile Picture</string>
+
+    <!--  Menu Drawer-->
+    <string name="app_name8">Navigation_UI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Add post-->
+    <string name="app">Post Add</string>
+    <string name="img11">INSERT IMAGE</string>
+    <string name="img22">EDIT</string>
+    <string name="img33">CANCEL</string>
+    <string name="head1"></string>
+    <string name="ins1"></string>
+
+    <!-- Cookit-->
+    <string name="app_name">My Application</string>
+    <string name="userName">Hashi Perera</string>
+    <string name="time">1 min ago</string>
+    <string name="topic">Pasta</string>
+    <string name="des1">TextViewMelt butter and oil in a large skillet over medium high
+        heat; add garlic and cook 1 minute until fragrant.Add carrots and toss 2 minutes until well
+        coated. Drizzle with honey and orange juice,add half of the orange zest and cook 4-5 more
+        minutes.Season with salt and pepper to taste.</string>
+    <string name="butn1">Cook it</string>
+    <string name="butn2">Comment</string>
+
+    <!-- Post add and delete-->
+    <string name="app_">Editn Delete post</string>
+    <string name="img1">INSERT IMAGE</string>
+    <string name="img2">EDIT</string>
+    <string name="img3">CANCEL</string>
+    <string name="head">Kottu</string>
+    <string name="ins">For the chicken curry chop
+        the onion and slice the tomatoes as shown in the picture below. Also, prepare the ginger
+        and garlic paste. Additionally, take curry leaves, water, curry powder, cardamom,
+        cinnamon, mustard seeds, turmeric powder, and salt.Heat the oil, add mustard seeds,
+        and let them splutter. Then add onion and curry leaves. Sauté until onion turns translucent.
+        Now add crushed cardamom and cinnamon. Sauté them until onion start turns to golden.</string>
+
+    <!-- Search Friend-->
+    <string name="app_name1">Search</string>
+    <string name="chathu1">Chathurya</string>
+    <string name="hashi1">Amindi</string>
+    <string name="amii1">Hashini</string>
+    <string name="pasii1">Pasindu</string>
+
+    <!-- Search recipes-->
+    <string name="app_name2">Search Recipe</string>
+    <string name="recipe1">Gateuh Cake</string>
+    <string name="recipe2">Sandwich</string>
+    <string name="recipe3">Muffin</string>
+    <string name="recipe4">Rolls</string>
+    <string name="ccokit1">Add to CookIt</string>
+    <string name="ccokit2">Add to CookIt</string>
+    <string name="ccokit3">Add to CookIt</string>
+    <string name="ccokit4">Add to CookIt</string>
+
+    <!-- Terms and conditions-->
+    <string name="app_name3">Terms &amp; Conditions</string>
+    <string name="para1">This agreement does not change or amend in
+        any way the Usage Rules set forth in the Android
+        Market.
+    </string>
+    <string name="para2">BY DOWNLOADING OR USING THE APPLICATION,
+        YOU ACCEPT THESE TERMS. IF YOU DO NOT
+        ACCEPT THEM, DO NOT DOWNLOAD OR USE
+        THE APPLICATION.
+    </string>
+    <string name="para3">IF YOU ACCESS ANY INTERNET BASED SERVICES
+        VIA LINKS IN THE APPLICATION, YOUR USE OF
+        THOSE SERVICES WILL BE SUBJECT TO BOTH
+        THIS AGREEMENT AND ANY SEPARATELY
+        PROVIDED TERMS OF USE AND PRIVACY
+        STATEMENT ON SUCH WEBSITE.
+    </string>
+    <string name="chkbox">I Agree to the above stated Terms and
+        Conditions.
+    </string>
+
+    <!-- SignUp-->
+    <string name="app_name4">SignUp</string>
+    <string name="appTitle">COOKIT</string>
+    <string name="regBtn">Register</string>
+    <string name="memBtn">Already a member? Login</string>
+    <string name="nameField">Name</string>
+    <string name="emailField">Email</string>
+    <string name="userNmField">Username</string>
+    <string name="passwordField">Password</string>
+    <string name="ConfirmPasswordField">Confirm Password</string>
+
+    <!-- Recipe feed-->
+    <string name="app_name5">Recipe Feed</string>
+    <string name="newly_added">Newly added Recipes!</string>
+    <string name="lasagna">\t\t\t\t<b>Lasagna</b>\n\tBy Kushi Perera\n
+        \t16/08/2020\n\tLasagne are a typeo f wide, flat pasta, possibly
+        one of the oldest types of pasta.</string>
+    <string name="pizza">\t\t\t\t<b>Pizza</b>\n\tBy Amanda Ebogama\n
+        \t27/08/2020\n\tPizza is a savory dish of Italian origin consisting of
+        a usually round, flattened base of leavened wheat-based dough</string>
+    <string name="spaghetti">\t\t\t\t<b>Spaghetti</b>\n\tBy Mal Clarke
+        \n\t16/05/2020\n\tSpaghetti is a long, thin, solid, cylindrical noodle
+        pasta. It is a staple food of traditional Italian cuisine.</string>
+
+    <!-- Login-->
+    <string name="app_name6">Login</string>
+    <string name="nameEmail">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot">forgot password?</string>
+    <string name="logBtn">Login</string>
+    <string name="create">Do not have an account? Sign up</string>
+
+    <!-- Comment-->
+    <string name="app_name7">Comments</string>
+    <string name="recipeName"><b>\t\t\tPizza</b>\n\t\t\tBy Amanda Ebogama</string>
+    <string name="comment1"><b>\tDinesh Chathuranga</b>\n\t2 minutes ago\n
+        \t\twow amazing recipe darling!!!keep it up
+    </string>
+    <string name="comment2"><b>\tAmanda Ebogama</b>\n\t1 minute ago\n
+        \t\tThank you so much!!
+    </string>
+    <string name="comment3"><b>\tMary Poppins</b>\n\t30 seconds ago\n
+        \t\tHi! How was the dish??
+    </string>
+    <string name="comment4"><b>\tLindsey Stirling</b>\n\t30 minutes ago\n
+        \t\tAlways admire you!!Relish..
+    </string>
+
+    <!-- Com activity-->
+    <string name="app_name9">CooKit</string>
+    <string name="userName10">Jess Cristine</string>
+    <string name="visibilityOffnline">Offline</string>
+    <string name="visibilityOnline">Online</string>
+    <string name="day">Today</string>
+    <string name="sendername">Jenne Meg</string>
+    <string name="SenderMSG">Sender message</string>
+
+    <!-- Setting activity-->
+    <string name="title_activity_chatsetting">Settings</string>
+    <string name="s1">User Profile</string>
+    <string name="s2">Hidden Chat</string>
+    <string name="s3">Block Contact</string>
+
+    <!-- Block list activity-->
+    <string name="titleBlockContact">Block contacts</string>
+    <string name="blockUserName">Block User</string>
+    <string name="blockBTN">Unblock</string>
+
+    <!-- Block list activity-->
+    <string name="titleHiddenContact">Hidden contacts</string>
+    <string name="HiddenConName">Hidden User</string>
+    <string name="hidenTxt">Message</string>
+    <string name="HiddenBTN">Unhide</string>
+
+    <!-- Chat screen activity-->
+    <string name="senderTime">12.00 am</string>
+    <string name="UserMSG">User message</string>
+    <string name="UserSednTime">12.01</string>
+    <string name="SendBTN">SEND</string>
+    <string name="inputHint">Enter Message</string>
+
+    <!-- Chat home activity-->
+    <string name="titleHome">Chat</string>
+    <string name="msgCount">12</string>
+    <string name="onlineCount">15</string>
+    <string name="onlineTitle">ONLINE</string>
+
+</resources>
